@@ -158,6 +158,7 @@ def prepareDataToSend():
         i += 1
 
     iBssid = len(getDatumCode()) + len(getDataCode())
+    bssidLength = len(bssidBytes)
     indexBssid = 0
     indexData = 0
     for d in getDataCode():
